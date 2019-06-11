@@ -1,0 +1,17 @@
+Target directory: /Users/danupo068/projects/serverless-internal-demos/knative-bg-deployment-demo
+Ruleset: ../../../.npm/_npx/9212/lib/node_modules/repolinter/rulesets/default.json
+Linguist Axiom: Linguist not found in path, only running language-independent rules
+Licensee Axiom: Licensee not found in path, only running license-independent rules
+✔ license-file-exists: found (LICENSE)
+✔ readme-file-exists: found (README.md)
+✔ contributing-file-exists: found (CONTRIBUTING)
+✔ code-of-conduct-file-exists: found (CODEOFCONDUCT)
+✔ support-file-exists: found (SUPPORT)
+✔ readme-references-license: File README.md contains license
+✔ binaries-not-present: Excluded file type doesn't exist (**/*.exe,**/*.dll,!node_modules/**)
+✔ test-directory-exists: found (specs)
+✔ integrates-with-ci: found (circle.yml)
+✔ code-of-conduct-file-contains-email: File CODEOFCONDUCT contains email address
+✔ github-issue-template-exists: found (ISSUE_TEMPLATE)
+✔ github-pull-request-template-exists: found (PULL_REQUEST_TEMPLATE)
+✖ license-detectable-by-licensee: Licensee not installed

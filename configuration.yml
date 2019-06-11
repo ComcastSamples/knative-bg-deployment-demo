@@ -1,0 +1,14 @@
+apiVersion: serving.knative.dev/v1alpha1
+kind: Configuration
+metadata:
+  name: knative-bg-deployment-demo
+  namespace: knative-bg-deployment-domain
+spec:
+  revisionTemplate:
+    spec:
+      container:
+        image: $USER/knative-bg-deployment-demo:latest
+        imagePullPolicy: Always
+        env:
+        - name: VERSION
+          value: "2"

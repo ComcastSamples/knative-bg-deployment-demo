@@ -1,0 +1,13 @@
+apiVersion: serving.knative.dev/v1alpha1
+kind: Route
+metadata:
+  name: knative-bg-deployment-demo
+  namespace: knative-bg-deployment-domain
+spec:
+  traffic:
+  - revisionName: knative-bg-deployment-demo-00001
+    name: v1
+    percent: 0
+  - revisionName: knative-bg-deployment-demo-00002
+    name: v2
+    percent: 100
